@@ -7,12 +7,23 @@
 // 7. Check (firstFavNum Mod secondFavNumber)
 // 8. Check the power of (firstFavNum)
 
-let firstFavNum = 21;
-let secondFavNum = 7;
+let firstFavNum = 16;
+
+let secondFavNum = 6;
 
 console.log(firstFavNum + secondFavNum);
+
 console.log(firstFavNum - secondFavNum);
+
 console.log(firstFavNum * secondFavNum);
+
 console.log(firstFavNum / secondFavNum);
+
+if(firstFavNum % secondFavNum){
+    console.log("Remainder is 0");
+}else{
 console.log(firstFavNum % secondFavNum);
+}
+
 console.log(firstFavNum ** secondFavNum);
+

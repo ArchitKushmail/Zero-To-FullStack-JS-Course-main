@@ -1,7 +1,7 @@
 let firstName = "HuXn";
 let lastName = "WebDev";
 let fullName = firstName + lastName;
-// console.log(fullName);
+console.log(fullName);
 
 //1. CONCATENATION
 // let fullName = firstName + " " + lastName
