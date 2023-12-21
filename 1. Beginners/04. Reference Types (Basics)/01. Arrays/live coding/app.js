@@ -34,3 +34,8 @@ console.log(myArray[0]); // "h"
 
 // second element
 console.log(myArray[1]); // "e"
+
+// Two Dmension // Nest Array
+
+const nestArr = ["one" , ["two","three"],1,true,false];
+console.log(nestArr[1][1]);

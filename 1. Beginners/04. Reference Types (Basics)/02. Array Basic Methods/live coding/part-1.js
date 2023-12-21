@@ -20,8 +20,8 @@ fruits.shift();
 fruits.unshift("orange");
 
 // CONCAT
-// const fruits = ["apples", "pomegranate", "mango"];
-// let moreFruits = ["strawberries", "pineapple", "grapefruit"];
-// let totalFruits = fruits.concat(moreFruits);
+ const fruitss = ["apples", "pomegranate", "mango"];
+ let moreFruits = ["strawberries", "pineapple", "grapefruit"];
+ let totalFruits = fruitss.concat(moreFruits);
 
-console.log(fruits);
+console.log(fruitss);
