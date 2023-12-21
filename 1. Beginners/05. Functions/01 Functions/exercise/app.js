@@ -4,11 +4,8 @@
 // 4. As argument pass your favorite numbers.
 // 5. log the value.
 
-// ---------------------------
-function myFunction(p1, p2) {
-  return p1 * p2; // The function returns the product of p1 and p2
+function myFunction(x,y) {
+  return x*y;
 }
-
-let x = myFunction(4, 3);
-console.log(x);
-// ---------------------------
+let result = myFunction(2,3);
+console.log(result);
