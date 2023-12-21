@@ -5,15 +5,15 @@
 // 5. Add new property wheels
 // 6. log car to the console.
 
-const car = { type: "Fiat", model: "500", color: "white" };
-
-// Accessing Properties
+const car = {
+type:"Fait",
+model:"500",
+color:"Black",
+};
 console.log(typeof car);
 
-// Updating Properties
-console.log(car.type);
-console.log((car.type = "Toyota"));
+console.log(car.type = "Toyota");
 
-// Add new properties
-console.log((car.wheels = 4));
+car.wheels = 4;
+
 console.log(car);

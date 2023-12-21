@@ -16,7 +16,7 @@ let person = {
 
 // Accessing Properties
 console.log(typeof person);
-console.log(person.location[1]);
+console.log(person.location[1]); // Dot notataion
 console.log(person["isProgrammer"]);
 // console.log(person[isProgrammer]); // ERROR -> without quotes
 
