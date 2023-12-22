@@ -8,5 +8,7 @@ function intro() {
 }
 
 console.log(
-  `Hello my name is ${firstName} ${lastName} & i'm ${19 + 1000} years old.`
+  `Hello my name is: ${firstName} ${lastName} & i'm ${19 + 1000} years old.`
 );
+
+console.log(`${intro}`);
