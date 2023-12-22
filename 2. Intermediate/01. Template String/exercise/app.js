@@ -7,14 +7,14 @@
 // 2. Create two variables (firstName, lastName)
 // 3. Use that variables in template string.
 
-let text = `The quick
+const text = `
+The quick
 brown fox
 jumps over
 the lazy dog`;
 
-// ----------------
-let firstName = "John";
-let lastName = "Doe";
-
-let text2 = `Welcome ${firstName}, ${lastName}!`;
+let firstName = "Archit";
+let lastName = "Kushmail";
+console.log(text);
+console.log(`${firstName} ${lastName}`);
 // ----------------
