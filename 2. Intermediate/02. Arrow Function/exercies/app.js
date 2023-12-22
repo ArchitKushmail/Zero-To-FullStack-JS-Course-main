@@ -17,21 +17,26 @@
 //   }, 2000);
 // }, 2000);
 
-setTimeout(() => {
+setTimeout( () => {
   console.log("Hello");
-  setTimeout(() => {
+  setTimeout( () =>{
     console.log("Hey");
-    setTimeout(() => {
+    setTimeout( ()=> {
       console.log("Namaste");
-      setTimeout(() => {
+      setTimeout( ()=> {
         console.log("Hi");
-        setTimeout(() => {
-          console.log("Salam");
-          setTimeout(() => {
-            console.log("Bonjour");
-          }, 2000);
+        setTimeout( ()=> {
+          console.log("Bonjour");
         }, 2000);
       }, 2000);
     }, 2000);
   }, 2000);
 }, 2000);
+
+// Function greet(username){
+//  return `Hello ${username}`;
+//  }
+
+let greet = (username) =>  `Hello ${username}`;
+console.log(greet);
+console.log(typeof greet);
