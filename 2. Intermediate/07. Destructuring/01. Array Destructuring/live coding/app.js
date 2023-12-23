@@ -4,9 +4,9 @@
 
 // --------------------------------
 // Basic variable assignment
-const foo = ["one", "two", "three"];
+//const foo = ["one", "two", "three"];
 
-const [red, yellow, green] = foo;
+//const [red, yellow, green] = foo;
 console.log(red); // "one"
 console.log(yellow); // "two"
 console.log(green); // "three"
@@ -24,7 +24,7 @@ console.log(blue); //undefined
 
 // --------------------------------
 // DEFAULT VALUES
-let a, b;
+//let a, b;
 
 [a = 5, b = 7] = [1];
 console.log(a); // 1
@@ -32,8 +32,8 @@ console.log(b); // 7
 
 // --------------------------------
 // Swapping variables
-let a = 1;
-let b = 3;
+//let a = 1;
+//let b = 3;
 
 [a, b] = [b, a];
 console.log(a); // 3
@@ -50,7 +50,7 @@ function f() {
   return [1, 2];
 }
 
-let a, b;
+//let a, b;
 [a, b] = f();
 console.log(a); // 1
 console.log(b); // 2
@@ -62,7 +62,7 @@ function f() {
   return [1, 2, 3];
 }
 
-const [a, , b] = f();
+//const [a, , b] = f();
 console.log(a); // 1
 console.log(b); // 3
 
